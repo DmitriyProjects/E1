@@ -36,23 +36,24 @@
 }
 
 .card {
+  
   margin-top: 250px;
   font-family: 'Gotham Pro';
   box-shadow: 0 5px 5px 1px rgba(23, 24, 25, 0.05);
 }
 
-.office {
+.card__image {
   width: 335px;
   height: 242px;
   background-image: url(../img/office.jpg);
   position: relative;
 }
 
-.front-end-image {
+.card__image--label {
   margin: 10px 0 0 21px;
 }
 
-.title-wezom {
+.card__image--title {
   font-size: 15px;
   line-height: 20px;
   text-transform: uppercase;
@@ -63,18 +64,14 @@
   left: 20px;
 }
 
-.info {
-  width: 335px;
-  height: 98px;
+.card__text {
   background-color: #fff;
-}
-
-.info_inner {
   padding-top: 15px;
-  margin-left: 21px;
+  padding-left: 21px;
+  padding-bottom: 28px;
 }
 
-.address {
+.card__text--address {
   color: #48494a;
   font-weight: 400;
   font-size: 14px;
@@ -83,7 +80,7 @@
   letter-spacing: 0px;
 }
 
-.price {
+.card__text--price {
   font-size: 18px;
   color: #161617;
   background-color: #fffbd7;
@@ -91,12 +88,12 @@
   margin-right: 6px;
 }
 
-.number,
-.solutions {
-  font-weight: 700;
-}
-
-.subtitle {
+.card__text--subtitle {
   font-size: 12px;
   color: #80848d;
+}
+
+.price--number,
+.text--solutions {
+  font-weight: 700;
 }
